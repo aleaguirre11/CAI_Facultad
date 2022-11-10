@@ -15,9 +15,9 @@ namespace Ejercicio_Facultad.Dominio.Entidades
             _fechanacimiento = fechanacimiento;
         }
 
-        private string _apellido;
-        private string _nombre;
-        private DateTime _fechanacimiento;
+        protected string _apellido;
+        protected string _nombre;
+        protected DateTime _fechanacimiento;
 
         public string Apellido
         {
@@ -54,7 +54,12 @@ namespace Ejercicio_Facultad.Dominio.Entidades
                 _fechanacimiento = value;
             }
         }
-           
-                
+
+        public virtual string GetNombreCompleto()
+        {
+            return "Apellido: " + Apellido + "Nombre: " +  Nombre + "\n";
+        }
+
+
     }
 }

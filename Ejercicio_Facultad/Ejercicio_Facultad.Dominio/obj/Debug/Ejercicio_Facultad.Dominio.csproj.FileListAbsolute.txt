@@ -1,0 +1,6 @@
+C:\Users\alexi\OneDrive\Documentos\GitHub\CAI_Facultad\Ejercicio_Facultad\Ejercicio_Facultad.Dominio\bin\Debug\Ejercicio_Facultad.Dominio.dll
+C:\Users\alexi\OneDrive\Documentos\GitHub\CAI_Facultad\Ejercicio_Facultad\Ejercicio_Facultad.Dominio\bin\Debug\Ejercicio_Facultad.Dominio.pdb
+C:\Users\alexi\OneDrive\Documentos\GitHub\CAI_Facultad\Ejercicio_Facultad\Ejercicio_Facultad.Dominio\obj\Debug\Ejercicio_Facultad.Dominio.csproj.AssemblyReference.cache
+C:\Users\alexi\OneDrive\Documentos\GitHub\CAI_Facultad\Ejercicio_Facultad\Ejercicio_Facultad.Dominio\obj\Debug\Ejercicio_Facultad.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\alexi\OneDrive\Documentos\GitHub\CAI_Facultad\Ejercicio_Facultad\Ejercicio_Facultad.Dominio\obj\Debug\Ejercicio_Facultad.Dominio.dll
+C:\Users\alexi\OneDrive\Documentos\GitHub\CAI_Facultad\Ejercicio_Facultad\Ejercicio_Facultad.Dominio\obj\Debug\Ejercicio_Facultad.Dominio.pdb

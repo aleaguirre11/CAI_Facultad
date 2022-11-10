@@ -25,5 +25,10 @@ namespace Ejercicio_Facultad.Dominio.Entidades
                 _apodo = value; 
             }
         }
+
+        public override string GetNombreCompleto()
+        {
+            return "Apellido: " + Apellido + "Nombre: " + Nombre + "\n";
+        }
     }
 }

@@ -12,5 +12,10 @@ namespace Ejercicio_Facultad.Dominio.Entidades
         {
 
         }
+
+        public override string GetNombreCompleto()
+        {
+            return "Apellido: " + Apellido + "Nombre: " + Nombre + "\n";
+        }
     }
 }

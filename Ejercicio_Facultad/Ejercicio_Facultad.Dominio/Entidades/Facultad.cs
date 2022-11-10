@@ -8,7 +8,7 @@ namespace Ejercicio_Facultad.Dominio.Entidades
 {
     public class Facultad
     {
-        public Facultad(int cantidadsedes, string nombre)
+        public Facultad(string nombre, int cantidadsedes)
         {
             _cantidadsedes = cantidadsedes;
             _nombre = nombre;
@@ -90,6 +90,27 @@ namespace Ejercicio_Facultad.Dominio.Entidades
                 {
                     _empleados.Remove(e);
                 }
+            }
+        }
+
+        public void ModificarEmpleado(Empleado e)
+        {
+            
+        }
+
+        public void TraerAlumnos()
+        {
+            foreach (Alumno alumno in Alumnos)
+            {
+                Console.WriteLine(alumno.ToString());
+            }
+        }
+
+        public void TraerEmpleados()
+        {
+            foreach (Empleado e in Empleados)
+            {
+                Console.WriteLine(e.ToString());
             }
         }
 

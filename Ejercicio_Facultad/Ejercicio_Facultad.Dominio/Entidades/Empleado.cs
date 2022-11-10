@@ -16,7 +16,7 @@ namespace Ejercicio_Facultad.Dominio.Entidades
         }
         private DateTime _fechaingreso; 
         private int _legajo;    
-        private List <Salario> salarios;
+        private List <Salario> _salarios;
 
         public DateTime Fechaingreso
         {
@@ -42,13 +42,33 @@ namespace Ejercicio_Facultad.Dominio.Entidades
             }
         }
 
-        public List<Salario> _salarios
+        public List<Salario> Salarios
         {
             get
             {
                 return _salarios;
             }
+            set
+            {
+                _salarios = value;
+            }
         }
+
+        public void AgregarSalario(Salario s)
+        {
+            _salarios.Add(s);
+        }
+
+        public override string GetNombreCompleto()
+        {
+            return "Apellido: " + Apellido + "Nombre: " + Nombre + "\n";
+        }
+
+        public override string ToString()
+        {
+            return Nombre + " - " + Apellido;
+        }
+
 
     }
 }
